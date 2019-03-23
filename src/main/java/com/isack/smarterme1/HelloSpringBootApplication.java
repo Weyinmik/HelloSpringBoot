@@ -15,7 +15,7 @@ public class HelloSpringBootApplication {
 	
 	@RequestMapping("/hello")
 	public String greeting() {
-		return "Hello World!";
+		return "Hello Spring Boot! Application successfully created with Spring Starter Project";
 	}
 
 }
